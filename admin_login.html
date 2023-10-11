@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Admin add admin</title>	
+		<meta @charset = "UTF-8">
+		<link rel= "stylesheet" type = "text/css" href = "jone.css">
+	</head>
+	<style>
+		body
+		{
+		   background-image: url(logo.jpg);
+		   height: 100vh;
+		   background-size: cover;
+		   background-position: center;
+		}
+		</style>
+	<body>
+		<nav class="admin" >
+			<ul>
+				<li><a href="ALL.html">Admin Panel</a></li>
+					<div class="info">
+					</div>
+				</li>
+				 <li><a href="#">Block Users</a>
+						<div class="info">
+							<ul>
+								<li><a href="Admin_block_Students.html"> Students</a></li>
+							</ul>	
+					   </div>
+			</ul>
+		</nav>
+		<section>
+			<div class= "loginbox">
+				<form  action="admin.php" method="POST">
+					<fieldset>
+						<legend> ADMIN PAGE </legend>
+							<table cellspacing="20px" class="regtables">						
+								<tr>
+
+															
+									<input type="text" id="user" name="username" placeholder="username"/><br>
+							    	</br>
+								    <input type="text" id="pass" name="password" placeholder="password"/><br>
+								    </br>
+								    <button type="submit" id="btn" name="login" default>login</button>
+
+
+
+								
+								</tr>
+							</table>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>

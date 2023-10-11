@@ -1,0 +1,45 @@
+body{
+      background: url(hqdefault.jpg) no repeat;
+      background-size: cover;
+      height:100vh;
+      background-position:center;
+	color: #ac5353;;
+	
+}
+
+ul{
+   padding: 0xp; 
+   list-style: none;
+   margin: 0px;
+ 
+}
+
+ul li{
+      display: inline-block;
+}   
+
+ul li a{
+     text-decoration: none;
+	 color: navy;
+	 display: black;
+     }
+	 
+	 
+ul li a:hover{
+      background-color: #ac5353;
+		 
+      }	 
+		
+marquee{
+      position: absolute;
+      left:30%;
+      color: #F0FFFF;
+      font-size: 20px;
+}	
+
+
+
+
+
+ 
+

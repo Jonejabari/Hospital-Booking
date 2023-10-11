@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Admin Block Students</title>
+		<link rel="stylesheet" type="text/css" href="jone.css">
+	</head>
+	<style>
+		body
+		{
+		   background-image: url(logo.jpg);
+		   height: 100vh;
+		   background-size: cover;
+		   background-position: center;
+		}
+		</style>
+	<nav class="admin" >
+			<nav class="admin" >
+			<ul>
+				<li><a href="ALL.html">Log out</a></li>
+					<div class="info">
+					</div>
+				</li>
+				 <li><a href="#">Block Users</a>
+						<div class="info">
+							<ul>
+								<li><a href="Admin_block_Students.html"> Students</li>
+								<li><a href="#"> Students</a></li>
+							</ul>	
+					   </div>
+				</li>
+			</ul>
+		</nav>
+	<body style="color:black;">
+
+		<div class="block">
+			<form  action="Admin_block_Students.php"  method="POST">
+				<fieldset><legend>Admin block Students</legend>
+					<table>
+						<tr>
+							<td><label for="name">first_name:</label></td>
+							<td><input type="text" name="first_name" placeholder="first_name"></td>
+						</tr>
+						<tr>
+							<td><label for="submit"></label></td>
+							<td> <input type="submit" value="BLOCK Students"></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
