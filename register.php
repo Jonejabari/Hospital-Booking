@@ -16,16 +16,10 @@ if($connection->connect_error)die($connection_error);
 $query = "INSERT INTO register (first_name,last_name,gender,phone_number,password,Faculty) VALUES ('$first_name','$last_name','$gender','$phone_number','$password','$Faculty')";
 $result = $connection->query($query);
 if(!$result)
-
-
-
-{
-  echo "there was a problem inserting the values";
-}
-  else
-{
+  
+  {
+    echo "there was a problem inserting the values";
+  }else{
   echo "query was successful";
-}  
-
-
+} 
 ?>
